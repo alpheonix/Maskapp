@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,13 @@
 		962656232588AFDE001A31B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962656212588AFDE001A31B1 /* Main.storyboard */; };
 		962656252588AFE0001A31B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962656242588AFE0001A31B1 /* Assets.xcassets */; };
 		962656282588AFE0001A31B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962656262588AFE0001A31B1 /* LaunchScreen.storyboard */; };
+		96FAC15D25C080620091B736 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAC15C25C080620091B736 /* Service.swift */; };
+		96FAC15F25C080C90091B736 /* MaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAC15E25C080C90091B736 /* MaskService.swift */; };
+		96FAC16225C0977F0091B736 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAC16025C0977F0091B736 /* StatsViewController.swift */; };
+		96FAC16325C0977F0091B736 /* StatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FAC16125C0977F0091B736 /* StatsViewController.xib */; };
+		96FAC16625C0BD2C0091B736 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAC16425C0BD2C0091B736 /* HomeViewController.swift */; };
+		96FAC16725C0BD2C0091B736 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FAC16525C0BD2C0091B736 /* HomeViewController.xib */; };
+		96FAC16925C0C24E0091B736 /* MaskStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAC16825C0C24E0091B736 /* MaskStat.swift */; };
 		F0DACA79661DF95D429D8CD7 /* Pods_VideoStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519C00BF8A1DAB526281858A /* Pods_VideoStream.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +34,13 @@
 		962656242588AFE0001A31B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962656272588AFE0001A31B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962656292588AFE0001A31B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FAC15C25C080620091B736 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		96FAC15E25C080C90091B736 /* MaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskService.swift; sourceTree = "<group>"; };
+		96FAC16025C0977F0091B736 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		96FAC16125C0977F0091B736 /* StatsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatsViewController.xib; sourceTree = "<group>"; };
+		96FAC16425C0BD2C0091B736 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96FAC16525C0BD2C0091B736 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		96FAC16825C0C24E0091B736 /* MaskStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskStat.swift; sourceTree = "<group>"; };
 		9980DDF0BCC3D0924FC3BBA0 /* Pods-VideoStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoStream.release.xcconfig"; path = "Target Support Files/Pods-VideoStream/Pods-VideoStream.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +70,6 @@
 				2C5AF5AA8A22DE4F92DBC238 /* Pods-VideoStream.debug.xcconfig */,
 				9980DDF0BCC3D0924FC3BBA0 /* Pods-VideoStream.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +101,13 @@
 				962656242588AFE0001A31B1 /* Assets.xcassets */,
 				962656262588AFE0001A31B1 /* LaunchScreen.storyboard */,
 				962656292588AFE0001A31B1 /* Info.plist */,
+				96FAC15C25C080620091B736 /* Service.swift */,
+				96FAC15E25C080C90091B736 /* MaskService.swift */,
+				96FAC16025C0977F0091B736 /* StatsViewController.swift */,
+				96FAC16125C0977F0091B736 /* StatsViewController.xib */,
+				96FAC16425C0BD2C0091B736 /* HomeViewController.swift */,
+				96FAC16525C0BD2C0091B736 /* HomeViewController.xib */,
+				96FAC16825C0C24E0091B736 /* MaskStat.swift */,
 			);
 			path = VideoStream;
 			sourceTree = "<group>";
@@ -154,6 +174,8 @@
 			files = (
 				962656282588AFE0001A31B1 /* LaunchScreen.storyboard in Resources */,
 				962656252588AFE0001A31B1 /* Assets.xcassets in Resources */,
+				96FAC16725C0BD2C0091B736 /* HomeViewController.xib in Resources */,
+				96FAC16325C0977F0091B736 /* StatsViewController.xib in Resources */,
 				962656232588AFDE001A31B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +230,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				962656202588AFDE001A31B1 /* ViewController.swift in Sources */,
+				96FAC16925C0C24E0091B736 /* MaskStat.swift in Sources */,
+				96FAC15D25C080620091B736 /* Service.swift in Sources */,
+				96FAC15F25C080C90091B736 /* MaskService.swift in Sources */,
 				9626561C2588AFDE001A31B1 /* AppDelegate.swift in Sources */,
+				96FAC16225C0977F0091B736 /* StatsViewController.swift in Sources */,
+				96FAC16625C0BD2C0091B736 /* HomeViewController.swift in Sources */,
 				9626561E2588AFDE001A31B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

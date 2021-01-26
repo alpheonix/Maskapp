@@ -8,5 +8,6 @@ target 'VideoStream' do
   # Pods for VideoStream
    pod 'Alamofire'
    pod "MJPEGStreamLib"
+   pod 'Charts' 
 
 end
